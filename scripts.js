@@ -10,3 +10,10 @@ function handleButtonClick() {
     door.classList.add('door-open')
   }
 }
+
+function handleFieldsAnimation() {
+  const fields = document.getElementsByClassName('field')
+  console.log({fields})
+}
+
+handleFieldsAnimation()
